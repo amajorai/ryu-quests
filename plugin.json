@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.quests",
+  "version": "0.1.14",
+  "description": "Quests: auto-detecting todos surfaced from your chats and activity, tracked as a lightweight quest board with progress and completion.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-quests",
+  "repository": "https://github.com/amajorai/ryu-quests",
+  "keywords": ["tasks", "todos", "productivity", "tracking"],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/quests",
+      "displayName": "Quests"
+    }
+  }
+}
